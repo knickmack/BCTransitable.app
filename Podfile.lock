@@ -1,0 +1,13 @@
+PODS:
+  - AFNetworking (1.2.1)
+  - SIAlertView (1.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 1.2.1)
+  - SIAlertView (~> 1.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: a44069e3c9c89867544f6639482f155c7e5f9b41
+  SIAlertView: 43f1b8d23c7425fad0df866902163dcf1c1efc13
+
+COCOAPODS: 0.20.2

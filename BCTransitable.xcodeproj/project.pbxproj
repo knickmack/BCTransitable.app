@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2813C0A217508BAF00CE318A /* BCTStyleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2813C0A117508BAF00CE318A /* BCTStyleController.m */; };
+		2813C0A617509DB900CE318A /* UIColor+BCTransitable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2813C0A517509DB900CE318A /* UIColor+BCTransitable.m */; };
+		281EB23C1755B065001D7B35 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 281EB23A1755B065001D7B35 /* Default.png */; };
+		281EB23D1755B065001D7B35 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281EB23B1755B065001D7B35 /* Default@2x.png */; };
+		281EB2401755B13B001D7B35 /* BCTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 281EB23F1755B13B001D7B35 /* BCTTableViewCell.m */; };
+		281EB2431755B204001D7B35 /* UIFont+BCTransitable.m in Sources */ = {isa = PBXBuildFile; fileRef = 281EB2421755B204001D7B35 /* UIFont+BCTransitable.m */; };
+		2860790617559C5700E22760 /* BCTTableViewSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860790517559C5700E22760 /* BCTTableViewSectionHeaderView.m */; };
+		286E3E1F174FCEFE001EED98 /* BCTRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 286E3E1E174FCEFE001EED98 /* BCTRoute.m */; };
+		286E3E22174FF74A001EED98 /* BCTSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 286E3E21174FF74A001EED98 /* BCTSchedule.m */; };
+		286E3E25174FF9D6001EED98 /* BCTScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286E3E24174FF9D6001EED98 /* BCTScheduleViewController.m */; };
+		286E3E2917500A2F001EED98 /* BCTScheduleTimeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 286E3E2817500A2F001EED98 /* BCTScheduleTimeCollectionViewCell.m */; };
+		286E3E2C17500C2E001EED98 /* BCTScheduleWaypointCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 286E3E2B17500C2E001EED98 /* BCTScheduleWaypointCollectionReusableView.m */; };
+		286E3E2F17501455001EED98 /* BCTScheduleCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 286E3E2E17501455001EED98 /* BCTScheduleCollectionViewLayout.m */; };
+		2873D9A7174F44AF00804851 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2873D9A6174F44AF00804851 /* UIKit.framework */; };
+		2873D9A9174F44AF00804851 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2873D9A8174F44AF00804851 /* Foundation.framework */; };
+		2873D9AB174F44AF00804851 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2873D9AA174F44AF00804851 /* CoreGraphics.framework */; };
+		2873D9CD174F455300804851 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2873D9C5174F455300804851 /* AppDelegate.m */; };
+		2873D9CF174F455300804851 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2873D9C7174F455300804851 /* main.m */; };
+		2873D9D7174F460400804851 /* BCTRegionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2873D9D6174F460400804851 /* BCTRegionsViewController.m */; };
+		2873D9DB174F486E00804851 /* BCTRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2873D9DA174F486E00804851 /* BCTRegion.m */; };
+		287DE546175160990037D5FC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 287DE545175160990037D5FC /* Default-568h@2x.png */; };
+		2895EF2B17A1FC770016BE77 /* BCTSchedulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2895EF2A17A1FC770016BE77 /* BCTSchedulesViewController.m */; };
+		28A1688C17597BC6002B8B97 /* BCTRemoveBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A1688B17597BC6002B8B97 /* BCTRemoveBarButtonItem.m */; };
+		28BB3252174F4ADF007DD6B7 /* BCTYahooQueryLanguageAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB3251174F4ADF007DD6B7 /* BCTYahooQueryLanguageAPIClient.m */; };
+		28BB3255174F4F0C007DD6B7 /* KNMKSearchableIndexedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB3254174F4F0C007DD6B7 /* KNMKSearchableIndexedTableViewController.m */; };
+		28BB3258174F5133007DD6B7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BB3256174F5133007DD6B7 /* MobileCoreServices.framework */; };
+		28BB3259174F5133007DD6B7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BB3257174F5133007DD6B7 /* SystemConfiguration.framework */; };
+		28BB325C174F519E007DD6B7 /* BCTRoutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB325B174F519D007DD6B7 /* BCTRoutesViewController.m */; };
+		28D0A2FA17616D860099B0BA /* BCTSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D0A2F917616D860099B0BA /* BCTSearchBar.m */; };
+		28EDC4A01752D028009C194C /* UIImage+BCTransitable.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDC49F1752D028009C194C /* UIImage+BCTransitable.m */; };
+		28EDC4A31752D958009C194C /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28EDC4A11752D958009C194C /* Lato-Bold.ttf */; };
+		28EDC4A41752D958009C194C /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28EDC4A21752D958009C194C /* Lato-Regular.ttf */; };
+		28EDC4BB1752ED2B009C194C /* BCTReorderBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDC4BA1752ED2B009C194C /* BCTReorderBarButtonItem.m */; };
+		28EDC4BF175310D5009C194C /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28EDC4BE175310D5009C194C /* FontAwesome.ttf */; };
+		28EDC4C2175312C4009C194C /* BCTCalendarBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDC4C1175312C4009C194C /* BCTCalendarBarButtonItem.m */; };
+		28EDC4C517531407009C194C /* BCTRandomBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDC4C417531407009C194C /* BCTRandomBarButtonItem.m */; };
+		28EDC4C8175314EC009C194C /* BCTRefreshBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDC4C7175314EC009C194C /* BCTRefreshBarButtonItem.m */; };
+		28EDC4CB175317FA009C194C /* BCTChevronButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDC4CA175317FA009C194C /* BCTChevronButton.m */; };
+		32A697CE48784E7680C371DB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF277E9BA0C94733A4234DB4 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2813C0A017508BAF00CE318A /* BCTStyleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTStyleController.h; path = Classes/BCTStyleController.h; sourceTree = "<group>"; };
+		2813C0A117508BAF00CE318A /* BCTStyleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTStyleController.m; path = Classes/BCTStyleController.m; sourceTree = "<group>"; };
+		2813C0A417509DB900CE318A /* UIColor+BCTransitable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+BCTransitable.h"; path = "Classes/UIColor+BCTransitable.h"; sourceTree = "<group>"; };
+		2813C0A517509DB900CE318A /* UIColor+BCTransitable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BCTransitable.m"; path = "Classes/UIColor+BCTransitable.m"; sourceTree = "<group>"; };
+		281EB23A1755B065001D7B35 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		281EB23B1755B065001D7B35 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		281EB23E1755B13B001D7B35 /* BCTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTTableViewCell.h; path = Classes/BCTTableViewCell.h; sourceTree = "<group>"; };
+		281EB23F1755B13B001D7B35 /* BCTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTTableViewCell.m; path = Classes/BCTTableViewCell.m; sourceTree = "<group>"; };
+		281EB2411755B204001D7B35 /* UIFont+BCTransitable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+BCTransitable.h"; path = "Classes/UIFont+BCTransitable.h"; sourceTree = "<group>"; };
+		281EB2421755B204001D7B35 /* UIFont+BCTransitable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+BCTransitable.m"; path = "Classes/UIFont+BCTransitable.m"; sourceTree = "<group>"; };
+		2860790417559C5700E22760 /* BCTTableViewSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTTableViewSectionHeaderView.h; path = Classes/BCTTableViewSectionHeaderView.h; sourceTree = "<group>"; };
+		2860790517559C5700E22760 /* BCTTableViewSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTTableViewSectionHeaderView.m; path = Classes/BCTTableViewSectionHeaderView.m; sourceTree = "<group>"; };
+		286E3E1D174FCEFE001EED98 /* BCTRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTRoute.h; path = Classes/BCTRoute.h; sourceTree = "<group>"; };
+		286E3E1E174FCEFE001EED98 /* BCTRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTRoute.m; path = Classes/BCTRoute.m; sourceTree = "<group>"; };
+		286E3E20174FF74A001EED98 /* BCTSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTSchedule.h; path = Classes/BCTSchedule.h; sourceTree = "<group>"; };
+		286E3E21174FF74A001EED98 /* BCTSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTSchedule.m; path = Classes/BCTSchedule.m; sourceTree = "<group>"; };
+		286E3E23174FF9D6001EED98 /* BCTScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTScheduleViewController.h; path = Classes/BCTScheduleViewController.h; sourceTree = "<group>"; };
+		286E3E24174FF9D6001EED98 /* BCTScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTScheduleViewController.m; path = Classes/BCTScheduleViewController.m; sourceTree = "<group>"; };
+		286E3E2717500A2F001EED98 /* BCTScheduleTimeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTScheduleTimeCollectionViewCell.h; path = Classes/BCTScheduleTimeCollectionViewCell.h; sourceTree = "<group>"; };
+		286E3E2817500A2F001EED98 /* BCTScheduleTimeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTScheduleTimeCollectionViewCell.m; path = Classes/BCTScheduleTimeCollectionViewCell.m; sourceTree = "<group>"; };
+		286E3E2A17500C2E001EED98 /* BCTScheduleWaypointCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTScheduleWaypointCollectionReusableView.h; path = Classes/BCTScheduleWaypointCollectionReusableView.h; sourceTree = "<group>"; };
+		286E3E2B17500C2E001EED98 /* BCTScheduleWaypointCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTScheduleWaypointCollectionReusableView.m; path = Classes/BCTScheduleWaypointCollectionReusableView.m; sourceTree = "<group>"; };
+		286E3E2D17501455001EED98 /* BCTScheduleCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTScheduleCollectionViewLayout.h; path = Classes/BCTScheduleCollectionViewLayout.h; sourceTree = "<group>"; };
+		286E3E2E17501455001EED98 /* BCTScheduleCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTScheduleCollectionViewLayout.m; path = Classes/BCTScheduleCollectionViewLayout.m; sourceTree = "<group>"; };
+		2873D9A3174F44AF00804851 /* BCTransitable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCTransitable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2873D9A6174F44AF00804851 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2873D9A8174F44AF00804851 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2873D9AA174F44AF00804851 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2873D9C4174F455300804851 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2873D9C5174F455300804851 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2873D9C6174F455300804851 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2873D9C7174F455300804851 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2873D9C8174F455300804851 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		2873D9D5174F460400804851 /* BCTRegionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTRegionsViewController.h; path = Classes/BCTRegionsViewController.h; sourceTree = "<group>"; };
+		2873D9D6174F460400804851 /* BCTRegionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTRegionsViewController.m; path = Classes/BCTRegionsViewController.m; sourceTree = "<group>"; };
+		2873D9D9174F486E00804851 /* BCTRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTRegion.h; path = Classes/BCTRegion.h; sourceTree = "<group>"; };
+		2873D9DA174F486E00804851 /* BCTRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTRegion.m; path = Classes/BCTRegion.m; sourceTree = "<group>"; };
+		287DE545175160990037D5FC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2895EF2917A1FC770016BE77 /* BCTSchedulesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTSchedulesViewController.h; path = Classes/BCTSchedulesViewController.h; sourceTree = "<group>"; };
+		2895EF2A17A1FC770016BE77 /* BCTSchedulesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTSchedulesViewController.m; path = Classes/BCTSchedulesViewController.m; sourceTree = "<group>"; };
+		28A1688A17597BC6002B8B97 /* BCTRemoveBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTRemoveBarButtonItem.h; path = Classes/BCTRemoveBarButtonItem.h; sourceTree = "<group>"; };
+		28A1688B17597BC6002B8B97 /* BCTRemoveBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTRemoveBarButtonItem.m; path = Classes/BCTRemoveBarButtonItem.m; sourceTree = "<group>"; };
+		28BB3250174F4ADF007DD6B7 /* BCTYahooQueryLanguageAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTYahooQueryLanguageAPIClient.h; path = Classes/BCTYahooQueryLanguageAPIClient.h; sourceTree = "<group>"; };
+		28BB3251174F4ADF007DD6B7 /* BCTYahooQueryLanguageAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTYahooQueryLanguageAPIClient.m; path = Classes/BCTYahooQueryLanguageAPIClient.m; sourceTree = "<group>"; };
+		28BB3253174F4F0C007DD6B7 /* KNMKSearchableIndexedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KNMKSearchableIndexedTableViewController.h; path = Classes/KNMKSearchableIndexedTableViewController.h; sourceTree = "<group>"; };
+		28BB3254174F4F0C007DD6B7 /* KNMKSearchableIndexedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KNMKSearchableIndexedTableViewController.m; path = Classes/KNMKSearchableIndexedTableViewController.m; sourceTree = "<group>"; };
+		28BB3256174F5133007DD6B7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		28BB3257174F5133007DD6B7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		28BB325A174F519D007DD6B7 /* BCTRoutesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTRoutesViewController.h; path = Classes/BCTRoutesViewController.h; sourceTree = "<group>"; };
+		28BB325B174F519D007DD6B7 /* BCTRoutesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTRoutesViewController.m; path = Classes/BCTRoutesViewController.m; sourceTree = "<group>"; };
+		28D0A2F817616D860099B0BA /* BCTSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTSearchBar.h; path = Classes/BCTSearchBar.h; sourceTree = "<group>"; };
+		28D0A2F917616D860099B0BA /* BCTSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTSearchBar.m; path = Classes/BCTSearchBar.m; sourceTree = "<group>"; };
+		28EDC49E1752D028009C194C /* UIImage+BCTransitable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+BCTransitable.h"; path = "Classes/UIImage+BCTransitable.h"; sourceTree = "<group>"; };
+		28EDC49F1752D028009C194C /* UIImage+BCTransitable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+BCTransitable.m"; path = "Classes/UIImage+BCTransitable.m"; sourceTree = "<group>"; };
+		28EDC4A11752D958009C194C /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		28EDC4A21752D958009C194C /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		28EDC4B91752ED2B009C194C /* BCTReorderBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTReorderBarButtonItem.h; path = Classes/BCTReorderBarButtonItem.h; sourceTree = "<group>"; };
+		28EDC4BA1752ED2B009C194C /* BCTReorderBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTReorderBarButtonItem.m; path = Classes/BCTReorderBarButtonItem.m; sourceTree = "<group>"; };
+		28EDC4BE175310D5009C194C /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		28EDC4C0175312C4009C194C /* BCTCalendarBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTCalendarBarButtonItem.h; path = Classes/BCTCalendarBarButtonItem.h; sourceTree = "<group>"; };
+		28EDC4C1175312C4009C194C /* BCTCalendarBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTCalendarBarButtonItem.m; path = Classes/BCTCalendarBarButtonItem.m; sourceTree = "<group>"; };
+		28EDC4C317531407009C194C /* BCTRandomBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTRandomBarButtonItem.h; path = Classes/BCTRandomBarButtonItem.h; sourceTree = "<group>"; };
+		28EDC4C417531407009C194C /* BCTRandomBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTRandomBarButtonItem.m; path = Classes/BCTRandomBarButtonItem.m; sourceTree = "<group>"; };
+		28EDC4C6175314EC009C194C /* BCTRefreshBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTRefreshBarButtonItem.h; path = Classes/BCTRefreshBarButtonItem.h; sourceTree = "<group>"; };
+		28EDC4C7175314EC009C194C /* BCTRefreshBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTRefreshBarButtonItem.m; path = Classes/BCTRefreshBarButtonItem.m; sourceTree = "<group>"; };
+		28EDC4C9175317FA009C194C /* BCTChevronButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTChevronButton.h; path = Classes/BCTChevronButton.h; sourceTree = "<group>"; };
+		28EDC4CA175317FA009C194C /* BCTChevronButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTChevronButton.m; path = Classes/BCTChevronButton.m; sourceTree = "<group>"; };
+		6ADCAE1D044A4FD6A26DD07E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		CF277E9BA0C94733A4234DB4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2873D9A0174F44AF00804851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2873D9AB174F44AF00804851 /* CoreGraphics.framework in Frameworks */,
+				2873D9A9174F44AF00804851 /* Foundation.framework in Frameworks */,
+				32A697CE48784E7680C371DB /* libPods.a in Frameworks */,
+				28BB3258174F5133007DD6B7 /* MobileCoreServices.framework in Frameworks */,
+				28BB3259174F5133007DD6B7 /* SystemConfiguration.framework in Frameworks */,
+				2873D9A7174F44AF00804851 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2813C0A317509D3F00CE318A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2813C0A417509DB900CE318A /* UIColor+BCTransitable.h */,
+				2813C0A517509DB900CE318A /* UIColor+BCTransitable.m */,
+				281EB2411755B204001D7B35 /* UIFont+BCTransitable.h */,
+				281EB2421755B204001D7B35 /* UIFont+BCTransitable.m */,
+				28EDC49E1752D028009C194C /* UIImage+BCTransitable.h */,
+				28EDC49F1752D028009C194C /* UIImage+BCTransitable.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		286E3E2617500A07001EED98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28EDC4C0175312C4009C194C /* BCTCalendarBarButtonItem.h */,
+				28EDC4C1175312C4009C194C /* BCTCalendarBarButtonItem.m */,
+				28EDC4C9175317FA009C194C /* BCTChevronButton.h */,
+				28EDC4CA175317FA009C194C /* BCTChevronButton.m */,
+				28EDC4C317531407009C194C /* BCTRandomBarButtonItem.h */,
+				28EDC4C417531407009C194C /* BCTRandomBarButtonItem.m */,
+				28EDC4C6175314EC009C194C /* BCTRefreshBarButtonItem.h */,
+				28EDC4C7175314EC009C194C /* BCTRefreshBarButtonItem.m */,
+				28A1688A17597BC6002B8B97 /* BCTRemoveBarButtonItem.h */,
+				28A1688B17597BC6002B8B97 /* BCTRemoveBarButtonItem.m */,
+				28EDC4B91752ED2B009C194C /* BCTReorderBarButtonItem.h */,
+				28EDC4BA1752ED2B009C194C /* BCTReorderBarButtonItem.m */,
+				286E3E2D17501455001EED98 /* BCTScheduleCollectionViewLayout.h */,
+				286E3E2E17501455001EED98 /* BCTScheduleCollectionViewLayout.m */,
+				286E3E2717500A2F001EED98 /* BCTScheduleTimeCollectionViewCell.h */,
+				286E3E2817500A2F001EED98 /* BCTScheduleTimeCollectionViewCell.m */,
+				286E3E2A17500C2E001EED98 /* BCTScheduleWaypointCollectionReusableView.h */,
+				286E3E2B17500C2E001EED98 /* BCTScheduleWaypointCollectionReusableView.m */,
+				28D0A2F817616D860099B0BA /* BCTSearchBar.h */,
+				28D0A2F917616D860099B0BA /* BCTSearchBar.m */,
+				281EB23E1755B13B001D7B35 /* BCTTableViewCell.h */,
+				281EB23F1755B13B001D7B35 /* BCTTableViewCell.m */,
+				2860790417559C5700E22760 /* BCTTableViewSectionHeaderView.h */,
+				2860790517559C5700E22760 /* BCTTableViewSectionHeaderView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2873D99A174F44AF00804851 = {
+			isa = PBXGroup;
+			children = (
+				2873D9C3174F452300804851 /* BCTransitable */,
+				2873D9A5174F44AF00804851 /* Frameworks */,
+				2873D9A4174F44AF00804851 /* Products */,
+				6ADCAE1D044A4FD6A26DD07E /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		2873D9A4174F44AF00804851 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2873D9A3174F44AF00804851 /* BCTransitable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2873D9A5174F44AF00804851 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2873D9AA174F44AF00804851 /* CoreGraphics.framework */,
+				2873D9A8174F44AF00804851 /* Foundation.framework */,
+				CF277E9BA0C94733A4234DB4 /* libPods.a */,
+				28BB3256174F5133007DD6B7 /* MobileCoreServices.framework */,
+				28BB3257174F5133007DD6B7 /* SystemConfiguration.framework */,
+				2873D9A6174F44AF00804851 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2873D9C3174F452300804851 /* BCTransitable */ = {
+			isa = PBXGroup;
+			children = (
+				2873D9C4174F455300804851 /* AppDelegate.h */,
+				2873D9C5174F455300804851 /* AppDelegate.m */,
+				2813C0A317509D3F00CE318A /* Categories */,
+				28BB324F174F4AB2007DD6B7 /* Clients */,
+				2873D9D4174F45EB00804851 /* Controllers */,
+				2873D9D8174F483900804851 /* Models */,
+				2873D9C9174F455300804851 /* Resources */,
+				2873D9D3174F455800804851 /* Supporting Files */,
+				286E3E2617500A07001EED98 /* Views */,
+			);
+			name = BCTransitable;
+			sourceTree = "<group>";
+		};
+		2873D9C9174F455300804851 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				287DE545175160990037D5FC /* Default-568h@2x.png */,
+				281EB23A1755B065001D7B35 /* Default.png */,
+				281EB23B1755B065001D7B35 /* Default@2x.png */,
+				28EDC4BE175310D5009C194C /* FontAwesome.ttf */,
+				28EDC4A11752D958009C194C /* Lato-Bold.ttf */,
+				28EDC4A21752D958009C194C /* Lato-Regular.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2873D9D3174F455800804851 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2873D9C6174F455300804851 /* Info.plist */,
+				2873D9C7174F455300804851 /* main.m */,
+				2873D9C8174F455300804851 /* Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2873D9D4174F45EB00804851 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2873D9D5174F460400804851 /* BCTRegionsViewController.h */,
+				2873D9D6174F460400804851 /* BCTRegionsViewController.m */,
+				28BB325A174F519D007DD6B7 /* BCTRoutesViewController.h */,
+				28BB325B174F519D007DD6B7 /* BCTRoutesViewController.m */,
+				2895EF2917A1FC770016BE77 /* BCTSchedulesViewController.h */,
+				2895EF2A17A1FC770016BE77 /* BCTSchedulesViewController.m */,
+				286E3E23174FF9D6001EED98 /* BCTScheduleViewController.h */,
+				286E3E24174FF9D6001EED98 /* BCTScheduleViewController.m */,
+				2813C0A017508BAF00CE318A /* BCTStyleController.h */,
+				2813C0A117508BAF00CE318A /* BCTStyleController.m */,
+				28BB3253174F4F0C007DD6B7 /* KNMKSearchableIndexedTableViewController.h */,
+				28BB3254174F4F0C007DD6B7 /* KNMKSearchableIndexedTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2873D9D8174F483900804851 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2873D9D9174F486E00804851 /* BCTRegion.h */,
+				2873D9DA174F486E00804851 /* BCTRegion.m */,
+				286E3E1D174FCEFE001EED98 /* BCTRoute.h */,
+				286E3E1E174FCEFE001EED98 /* BCTRoute.m */,
+				286E3E20174FF74A001EED98 /* BCTSchedule.h */,
+				286E3E21174FF74A001EED98 /* BCTSchedule.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		28BB324F174F4AB2007DD6B7 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				28BB3250174F4ADF007DD6B7 /* BCTYahooQueryLanguageAPIClient.h */,
+				28BB3251174F4ADF007DD6B7 /* BCTYahooQueryLanguageAPIClient.m */,
+			);
+			name = Clients;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2873D9A2174F44AF00804851 /* BCTransitable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2873D9C0174F44B000804851 /* Build configuration list for PBXNativeTarget "BCTransitable" */;
+			buildPhases = (
+				E53C39121A1E4ACCA41EA14A /* Check Pods Manifest.lock */,
+				2873D99F174F44AF00804851 /* Sources */,
+				2873D9A0174F44AF00804851 /* Frameworks */,
+				2873D9A1174F44AF00804851 /* Resources */,
+				2C04007F58DD4BECBB9E4605 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BCTransitable;
+			productName = BCTransitable;
+			productReference = 2873D9A3174F44AF00804851 /* BCTransitable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2873D99B174F44AF00804851 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nik Macintosh";
+			};
+			buildConfigurationList = 2873D99E174F44AF00804851 /* Build configuration list for PBXProject "BCTransitable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2873D99A174F44AF00804851;
+			productRefGroup = 2873D9A4174F44AF00804851 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2873D9A2174F44AF00804851 /* BCTransitable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2873D9A1174F44AF00804851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287DE546175160990037D5FC /* Default-568h@2x.png in Resources */,
+				28EDC4A31752D958009C194C /* Lato-Bold.ttf in Resources */,
+				28EDC4A41752D958009C194C /* Lato-Regular.ttf in Resources */,
+				28EDC4BF175310D5009C194C /* FontAwesome.ttf in Resources */,
+				281EB23C1755B065001D7B35 /* Default.png in Resources */,
+				281EB23D1755B065001D7B35 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C04007F58DD4BECBB9E4605 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		E53C39121A1E4ACCA41EA14A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2873D99F174F44AF00804851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2873D9CD174F455300804851 /* AppDelegate.m in Sources */,
+				2873D9CF174F455300804851 /* main.m in Sources */,
+				2873D9D7174F460400804851 /* BCTRegionsViewController.m in Sources */,
+				2873D9DB174F486E00804851 /* BCTRegion.m in Sources */,
+				28BB3252174F4ADF007DD6B7 /* BCTYahooQueryLanguageAPIClient.m in Sources */,
+				28BB3255174F4F0C007DD6B7 /* KNMKSearchableIndexedTableViewController.m in Sources */,
+				28BB325C174F519E007DD6B7 /* BCTRoutesViewController.m in Sources */,
+				286E3E1F174FCEFE001EED98 /* BCTRoute.m in Sources */,
+				286E3E22174FF74A001EED98 /* BCTSchedule.m in Sources */,
+				286E3E25174FF9D6001EED98 /* BCTScheduleViewController.m in Sources */,
+				286E3E2917500A2F001EED98 /* BCTScheduleTimeCollectionViewCell.m in Sources */,
+				286E3E2C17500C2E001EED98 /* BCTScheduleWaypointCollectionReusableView.m in Sources */,
+				286E3E2F17501455001EED98 /* BCTScheduleCollectionViewLayout.m in Sources */,
+				2813C0A217508BAF00CE318A /* BCTStyleController.m in Sources */,
+				2813C0A617509DB900CE318A /* UIColor+BCTransitable.m in Sources */,
+				28EDC4A01752D028009C194C /* UIImage+BCTransitable.m in Sources */,
+				28EDC4BB1752ED2B009C194C /* BCTReorderBarButtonItem.m in Sources */,
+				28EDC4C2175312C4009C194C /* BCTCalendarBarButtonItem.m in Sources */,
+				28EDC4C517531407009C194C /* BCTRandomBarButtonItem.m in Sources */,
+				28EDC4C8175314EC009C194C /* BCTRefreshBarButtonItem.m in Sources */,
+				28EDC4CB175317FA009C194C /* BCTChevronButton.m in Sources */,
+				2860790617559C5700E22760 /* BCTTableViewSectionHeaderView.m in Sources */,
+				281EB2401755B13B001D7B35 /* BCTTableViewCell.m in Sources */,
+				281EB2431755B204001D7B35 /* UIFont+BCTransitable.m in Sources */,
+				28A1688C17597BC6002B8B97 /* BCTRemoveBarButtonItem.m in Sources */,
+				28D0A2FA17616D860099B0BA /* BCTSearchBar.m in Sources */,
+				2895EF2B17A1FC770016BE77 /* BCTSchedulesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2873D9BE174F44B000804851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2873D9BF174F44B000804851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2873D9C1174F44B000804851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ADCAE1D044A4FD6A26DD07E /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2873D9C2174F44B000804851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ADCAE1D044A4FD6A26DD07E /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2873D99E174F44AF00804851 /* Build configuration list for PBXProject "BCTransitable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2873D9BE174F44B000804851 /* Debug */,
+				2873D9BF174F44B000804851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2873D9C0174F44B000804851 /* Build configuration list for PBXNativeTarget "BCTransitable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2873D9C1174F44B000804851 /* Debug */,
+				2873D9C2174F44B000804851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2873D99B174F44AF00804851 /* Project object */;
+}
